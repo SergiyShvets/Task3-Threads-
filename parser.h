@@ -18,8 +18,6 @@ public:
 
     void parseList();
 
-    void startThread(std::shared_ptr<LinesCounter> counter, std::string &str);
-
     void setFolderPath(const std::string &value) noexcept;
 
 private:
@@ -31,6 +29,8 @@ private:
     std::shared_ptr<LinesCounter> totalLines;
 
     std::string folderPath;
+
+    void startThread(std::shared_ptr<LinesCounter> counter, std::string &str);
 
 };
 
