@@ -1,6 +1,0 @@
-Number of parsed files: 417
-Total lines: 38210
-Blank lines: 3715
-Comment lines: 28990
-Physical lines: 5505
-Total time(ms): 9397
