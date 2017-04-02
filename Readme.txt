@@ -1,7 +1,5 @@
 Task 3 Threads, containers, input/output with files
-Skip to end of metadata
-•	Created by Andriy Korkuna, last modified on Mar 28, 2017
-Go to start of metadata
+
 As a developer
 I want to have an application that counts blank lines, comment lines, and physical lines of source code written in C/C++.
 so that
