@@ -12,7 +12,7 @@ FileManager::FileManager() :
 
 }
 
-std::list<std::string> &FileManager::getFileList(std::string &folderPath)
+std::list<std::string> &FileManager::getFileList(const std::string &folderPath)
 {
     if(!folderPath.empty()){
 

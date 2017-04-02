@@ -6,7 +6,7 @@ BlankLinesCounter::BlankLinesCounter() : LinesCounter()
     std::cout << "Blank Lines Counter created" << std::endl;
 }
 
-void BlankLinesCounter::startCounter(std::string &filePath)
+void BlankLinesCounter::startCounter(const std::string &filePath)
 {
     std::fstream inputFile(filePath, std::ios_base::in);
 

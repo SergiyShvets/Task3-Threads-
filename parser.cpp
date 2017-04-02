@@ -38,6 +38,8 @@ void Parser::parseList()
               << "Total time(ms): " << time << '\n';
 
 
+    std::cout << outSream.rdbuf() << std::endl;
+
     fileManager->writeToFile(outSream);
 
 }

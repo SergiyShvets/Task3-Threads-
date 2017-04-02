@@ -7,7 +7,7 @@ CommentLinesCounter::CommentLinesCounter() : LinesCounter()
     std::cout << "Comment Lines Counter created" << std::endl;
 }
 
-void CommentLinesCounter::startCounter(std::string &filePath)
+void CommentLinesCounter::startCounter(const std::string &filePath)
 {
     std::fstream inputFile(filePath, std::ios_base::in);
 

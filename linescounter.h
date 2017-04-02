@@ -12,7 +12,7 @@ public:
     LinesCounter();
     virtual ~LinesCounter() = default;
 
-    virtual void startCounter(std::string &filePath) = 0;
+    virtual void startCounter(const std::string &filePath) = 0;
 
     virtual size_t getCounter() const noexcept = 0;
 

@@ -5,7 +5,7 @@ TotalLinesCounter::TotalLinesCounter() : LinesCounter()
     std::cout << "Physical Lines Counter created" << std::endl;
 }
 
-void TotalLinesCounter::startCounter(std::string &filePath)
+void TotalLinesCounter::startCounter(const std::string &filePath)
 {
     std::fstream inputFile(filePath, std::ios_base::in);
 

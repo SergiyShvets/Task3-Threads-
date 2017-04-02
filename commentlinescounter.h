@@ -9,7 +9,7 @@ public:
     CommentLinesCounter();
     ~CommentLinesCounter() = default;
 
-    void startCounter(std::string &filePath) override;
+    void startCounter(const std::string &filePath) override;
     size_t getCounter() const noexcept override;
 };
 

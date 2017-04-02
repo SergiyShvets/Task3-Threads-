@@ -12,7 +12,7 @@ public:
     FileManager();
     ~FileManager() = default;
 
-    std::list<std::string> &getFileList(std::string &folderPath);
+    std::list<std::string> &getFileList(const std::string &folderPath);
 
     void writeToFile(const std::stringstream &stream);
 
